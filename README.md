@@ -1,7 +1,7 @@
 # Movie_Recommender
  This project is a Movie Generator application written in Python. It utilizes the NumPy and pandas libraries to handle data processing and analysis. The application is designed to generate movie recommendations based on various input parameters.
 
-# Table of Contents
+## Table of Contents
 Installation
 Usage
 Features
@@ -11,31 +11,31 @@ Contributing
 License
 Installation
 
-# Prerequisites
+## Prerequisites
 Python 3.x
 pip (Python package installer)
 
-# Clone the repository:
+## Clone the repository:
 git clone https://github.com/yourusername/movie-generator.git
 
-# Install the required dependencies:
+## Install the required dependencies:
 pip install -r requirements.txt
 
-# Usage
+## Usage
 Navigate to the project directory:
 cd movie-generator
 
-# Run the main application script:
+## Run the main application script:
 python manage.py
 
 Follow the prompts to input your preferences and get movie recommendations.
 
-# Features
+## Features
 Movie Recommendation: Generates movie recommendations based on user input.
 Data Analysis: Utilizes pandas for data manipulation and analysis.
 Efficient Computation: Leverages NumPy for efficient numerical operations.
 
-# Project Structure
+## Project Structure
 
 movie-generator/
 ├── data/
@@ -53,7 +53,7 @@ movie-generator/
 ├── manage.py
 ├── requirements.txt
 └── README.md
-# Dependencies
+## Dependencies
 The project relies on the following libraries, as specified in requirements.txt:
 
 Django==2.0.12
@@ -64,19 +64,19 @@ scipy==1.1.0
 To install these dependencies, run:
 pip install -r requirements.txt
 
-# Contributing
+## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
-# Fork the repository.
+## Fork the repository.
 Create a new branch:
 bash
 Copy code
 git checkout -b feature/your-feature-name
 
-# Commit your changes:
+## Commit your changes:
 git commit -m 'Add some feature'
 
-# Push to the branch:
+## Push to the branch:
 git push origin feature/your-feature-name
 Create a new Pull Request.
 License
