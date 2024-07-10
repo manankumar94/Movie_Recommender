@@ -1,6 +1,5 @@
 {% extends 'web/base.html'%}
 {% block body %}
-
 <div class="container">
     <div class="col-xs-6 col-xs-offset-3">
     	<form class="form-horizontal" role="search" method="get" action=''>
@@ -15,7 +14,6 @@
         </div>
      </div>
    </form>
-
  </div>
 </div>  
     {% if messages %}
@@ -36,7 +34,6 @@
     </div>
 	</div>
 	<div class="container-fluid">
-    
     <!-- Movie list -->
     <div class="row">
             {% if movies %}
@@ -49,18 +46,13 @@
                         </a>
                         <h5>{{movie.genre}}</h5>
                         <div class="caption">
-
                             <!-- View Details -->
-                            <a href="{% url 'detail' movie.id %}" class="btn btn-primary btn-sm" role="button">Give Rating</a>
-
-                                        
+                            <a href="{% url 'detail' movie.id %}" class="btn btn-primary btn-sm" role="button">Give Rating</a>              
                         </div>
                     </div>
                 </div>
                 {% endfor %}
                 {% endif %}
-        </div>
-    
+        </div>    
 </div>
-
 {% endblock %}
